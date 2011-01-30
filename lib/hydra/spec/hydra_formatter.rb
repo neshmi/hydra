@@ -9,8 +9,8 @@ module RSpec
         def example_pending(example)
         end
 
-        def example_failed(example)
-        end
+        # def example_failed(example)
+        # end
 
         # Stifle the post-test summary
         def dump_summary(duration, example, failure, pending)
